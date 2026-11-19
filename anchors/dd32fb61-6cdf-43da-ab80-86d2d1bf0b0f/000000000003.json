@@ -1,0 +1,12 @@
+{
+  "org_id": "dd32fb61-6cdf-43da-ab80-86d2d1bf0b0f",
+  "from_seq": 1,
+  "to_seq": 3,
+  "count": 3,
+  "merkle_root": "617650b7d4a7d1068c7110c05fd92a17d546a27eb9bbcbb66eb7e63a94bffb33",
+  "head_hash": "7e5a1580d2b3b6b6ee14f931b3dddd29041eb76a9090ea5c429792fe44d8edb3",
+  "ts": "2026-11-19T23:00:01.943Z",
+  "anchor_hash": "7e34b41fbc0126d0c784002bb9dedd25014c2e175a8a66cc990f732dd2083dd3",
+  "signature": "GaiwMWhGu9syFnXBRBBpeI5tfmlrNB2xUlgFtw1ISXvMxaMeE90UXel7nk9-utkhj4UjwreSl6E94k8XSD3Pxg",
+  "signer_kid": "d4f24b71d67388509be697dd48e2deed"
+}
