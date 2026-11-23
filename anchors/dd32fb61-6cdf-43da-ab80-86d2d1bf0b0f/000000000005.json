@@ -1,0 +1,13 @@
+{
+  "org_id": "dd32fb61-6cdf-43da-ab80-86d2d1bf0b0f",
+  "from_seq": 4,
+  "to_seq": 5,
+  "count": 2,
+  "merkle_root": "73d688d91d4900cde18355cc18a67b6b07b756329663c3af314fe66df317d939",
+  "head_hash": "7205ac9869eb8f56114ffc4f07c6af472f4bbd0116da73788354d2211a15ad7e",
+  "prev_anchor_hash": "7e34b41fbc0126d0c784002bb9dedd25014c2e175a8a66cc990f732dd2083dd3",
+  "ts": "2026-11-23T03:00:01.413Z",
+  "anchor_hash": "77f4fce1d177c8503ae88f1a2724cc0446f6af7698e629e706fc8f7dff3869bf",
+  "signature": "21OF_AuWqntCrggn7tK0lmMWvMeq6A0Cq98tl_mbirri12fbOo8-oywSyCR5T3bHoAHXYE9f3JNMhaIs1GN1aQ",
+  "signer_kid": "d4f24b71d67388509be697dd48e2deed"
+}
