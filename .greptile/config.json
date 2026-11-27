@@ -1,0 +1,26 @@
+{
+  "strictness": 2,
+  "commentTypes": ["logic", "syntax"],
+  "excludeAuthors": ["dependabot[bot]"],
+  "instructions": "This repository is a public, append-only history of signed Merkle anchors written by Interlok's anchor job. Its value is that nobody can quietly rewrite it.",
+  "rules": [
+    {
+      "id": "append-only",
+      "rule": "Existing files under anchors/ must never be modified, renamed or deleted. A pull request may only add new anchor files. Flag any change to an existing anchor file as high severity.",
+      "scope": ["anchors/**"],
+      "severity": "high"
+    },
+    {
+      "id": "anchor-shape",
+      "rule": "A new anchor file is anchors/<org uuid>/<12-digit to_seq>.json with org_id matching its folder, from_seq <= to_seq, count = to_seq - from_seq + 1, from_seq continuing after the previous file's to_seq for that org, 64-hex merkle_root, head_hash and anchor_hash, an ISO-8601 ts, a base64url signature and a signer_kid.",
+      "scope": ["anchors/**"],
+      "severity": "high"
+    },
+    {
+      "id": "no-secrets",
+      "rule": "Nothing in this repository is secret. Flag any private key material, token, credential or ledger entry contents.",
+      "scope": ["**"],
+      "severity": "high"
+    }
+  ]
+}
